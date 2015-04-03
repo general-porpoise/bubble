@@ -1,0 +1,19 @@
+{
+  "name": "SnapCache",
+  "version": "0.0.1",
+  "description": "Snap Cache gives physical impact to digital interactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "ENTER-TEST-HERE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/general-porpoise/snapcache.git"
+  },
+  "author": "Anneke Floor, Chris Rinaldi, Conor Flannigan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/general-porpoise/snapcache/issues"
+  },
+  "homepage": "https://github.com/general-porpoise/snapcache"
+}
