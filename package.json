@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/general-porpoise/bubble.git"
+    "url": "https://github.com/general-porpoise/snapcache.git"
   },
   "author": "Anneke Floor, Chris Rinaldi, Conor Flannigan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/general-porpoise/bubble/issues"
+    "url": "https://github.com/general-porpoise/snapcache/issues"
   },
-  "homepage": "https://github.com/general-porpoise/bubble"
+  "homepage": "https://github.com/general-porpoise/snapcache"
 }
