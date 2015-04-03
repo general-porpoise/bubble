@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/general-porpoise/snapcache/issues"
   },
-  "homepage": "https://github.com/general-porpoise/snapcache"
+  "homepage": "https://github.com/general-porpoise/snapcache",
+  "devDependencies": {
+    "jest-cli": "^0.4.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
