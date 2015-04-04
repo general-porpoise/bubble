@@ -19,17 +19,17 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
-  Bubble
+  Snapcache
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
 
-  Bubble is for those who want to give physical impact to their digital interactions.
+  Snapcache is for those who want to give physical impact to their digital interactions.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
-  There is an almost necessary gap between messages in the digital world, and us in the real world. Bubble bridges that gap by giving digital communications their place in the physical spaces of our everyday lives.
+  There is an almost necessary gap between messages in the digital world, and us in the real world. Snapcache bridges that gap by giving digital communications their place in the physical spaces of our everyday lives.
 
 ## Problem ##
   > Describe the problem your product solves.
@@ -39,24 +39,24 @@ Once the project moves into development, the press release can be used as a touc
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
-  Bubble allows you to tie your communications to a specific time and place, giving them the physical impact they deserve.
+  Snapcache allows you to tie your communications to a specific time and place, giving them the physical impact they deserve.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
 
-  Bubble is awesome! It feels so much more special and intimate than communicating by traditional means.
+  Snapcache is awesome! It feels so much more special and intimate than communicating by traditional means.
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
 
-  Just sign up in the app and start blowing bubbles today!
+  Just sign up in the app and start snapcaching today!
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
-  I love Bubbles! My boyfriend left me the sweetest bubble at work today for my birthday. It felt great to have something so thoughtful waiting for me at the start of the day!
+  I love Snapcache! My boyfriend left me the sweetest snapcache at work today for my birthday. It felt great to have something so thoughtful waiting for me at the start of the day!
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
 
-  Interested? Sign up on bubble.io and start blowing bubbles today!
+  Interested? Sign up on snapcache.io and start snapcaching today!

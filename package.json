@@ -2,10 +2,8 @@
   "name": "SnapCache",
   "version": "0.0.1",
   "description": "Snap Cache gives physical impact to digital interactions",
-  "main": "index.js",
-  "scripts": {
-    "test": "ENTER-TEST-HERE"
-  },
+  "main": "./app/app.js",
+  "reapp": "0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/general-porpoise/snapcache.git"
@@ -16,14 +14,24 @@
     "url": "https://github.com/general-porpoise/snapcache/issues"
   },
   "homepage": "https://github.com/general-porpoise/snapcache",
+  "dependencies": {
+    "bluebird": "^2.9.21",
+    "react": "^0.13.1",
+    "react-router": "^0.13.2",
+    "reapp-kit": "^1.0.0"
+  },
   "devDependencies": {
-    "jest-cli": "^0.4.0"
+    "jest-cli": "^0.4.0",
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.10.0",
     "gulp-util": "^3.0.4",
-    "jshint-stylish": "^1.0.1"
+    "jshint-stylish": "^1.0.1",
+    "browserify": "^9.0.7",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "reapp run"
   }
 }
