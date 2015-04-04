@@ -1,4 +1,5 @@
-var snapcache = require('./app.js');
+var React = require('react');
+var HomePage = require('./pages/HomePage.jsx');
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -36,7 +37,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        snapcache();
+        React.render(<HomePage/>, document.body);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
