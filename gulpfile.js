@@ -9,16 +9,12 @@ var jshint = require('gulp-jshint');
 
 // configure the jshint task
 gulp.task('jshint', function() {
-  return gulp.src('app/src/**/*.js')
+  return gulp.src('www/js/src/**/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
-// configure which files to watch and what tasks to run on file changes
-gulp.task('watch', function() {
-  gulp.watch('app/src/**/*.js', ['jshint']);
-});
-
+// convert jsx into js files
 gulp.task('browserify', function(){
   var b = browserify();
   b.transform(reactify); // use the reactify transform
@@ -28,5 +24,11 @@ gulp.task('browserify', function(){
     .pipe(gulp.dest('./www/js/build'));
 });
 
+// configure which files to watch and what tasks to run on file changes
+gulp.task('watch', function() {
+  gulp.watch('www/js/src/**/*.js', ['jshint']);
+  gulp.watch('www/js/src/**/*.jsx', ['browserify']);
+});
+
 // define the default task and add watch task to it
-gulp.task('default', ['jshint', 'watch']);
+gulp.task('default', ['jshint', 'browserify', 'watch']);
