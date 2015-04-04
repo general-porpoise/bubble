@@ -5,7 +5,7 @@ var HomePage = React.createClass({
   render: function() {
     return (
       <div>
-        <Header text='Snapcache' back='true'/>
+        <Header text='Hello World' back='true'/>
         Hello World!
       </div>
     );
