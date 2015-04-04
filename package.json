@@ -25,7 +25,10 @@
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.10.0",
     "gulp-util": "^3.0.4",
-    "jshint-stylish": "^1.0.1"
+    "jshint-stylish": "^1.0.1",
+    "browserify": "^9.0.7",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
     "test": "jest",
