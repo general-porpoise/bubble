@@ -1,3 +1,5 @@
+var snapcache = require('./app.js');
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,6 +36,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        snapcache();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
